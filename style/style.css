@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* <--- body section ---> */
+
+body{
+    font-family: Poppins;
+    color: white;
+    background-image: url("/00-Assigement/Assignment-02/assets/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* <---- nav section -----> */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+/* <--- nav ul & li section -----> */
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+}
+li img{
+    width: 50px;
+    margin-left: 20px;
+}
+ul li a{
+    margin-left: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    color: purple;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+/* <--- button section ----> */
+.btn{
+    padding: 10px;
+    margin: 5px;
+}
+.btn button{
+    background: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.btn button:hover{
+    color:black;
+    background: white;
+    transition: 1s;
+}
+
+
+/* <--- main section---> */
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Poppins;
+}
+.context h1{
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 90px;
+    line-height: 90px;
+}
+.context p{
+    font-size: 20px;
+}
+
+.btn1 button{
+    font-size: 30px; 
+    padding: 10px;
+    margin-top: 20px;
+}
+
+span{
+    color:blueviolet;
+}
